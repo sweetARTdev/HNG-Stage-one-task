@@ -7,15 +7,12 @@
     <title>TASK-1</title>
   </head>
   <body>
-    <main class="main flex-center">
-      <div class="info-card">
-        
-        <div class="profile-image flex-center">
-          <img
+    <div class="info-card">
+        <img
             src="./assets/Slack dp.jpg"
             alt="A pic of Anuoluwapo"
-            data-testid="slackDisplayImage"/>
-        </div>
+            data-testid="slackDisplayImage"
+        />
 
         <div class="profile-name">
             <h1 data-testid="slackUserName">Anuoluwapo R. Tenibiaje</h1>
@@ -26,19 +23,19 @@
             Current day of the week:
             <span
               data-testid="currentDayOfTheWeek"
-              class="current_day bold"
+              class="current_day"
             ></span>
           </p>
         </div>
         <div>
           <p>
             Current UTC Time:
-            <span data-testid="currentUTCTime" class="utc-time bold"></span>
+            <span data-testid="currentUTCTime" class="utc-time"></span>
           </p>
         </div>
         <div class="track">
           <p>
-            Track: <span data-testid="myTrack" class="bold">Frontend</span>
+            Track: <span data-testid="myTrack">Frontend</span>
           </p>
         </div>
         <div class="github ">
@@ -50,8 +47,7 @@
             >Github Url</a
           >
         </div>
-      </div>
-    </main>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
