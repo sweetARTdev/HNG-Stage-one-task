@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TASK-1</title>
+  </head>
+  <body>
+    <main class="main flex-center">
+      <div class="info-card">
+        
+        <div class="profile-image flex-center">
+          <img
+            src="./assets/Slack dp.jpg"
+            alt="A pic of Anuoluwapo"
+            data-testid="slackDisplayImage"/>
+        </div>
+
+        <div class="profile-name">
+            <h1 data-testid="slackUserName">Anuoluwapo R. Tenibiaje</h1>
+        </div>
+
+        <div class="day_of_week">
+          <p>
+            Current day of the week:
+            <span
+              data-testid="currentDayOfTheWeek"
+              class="current_day bold"
+            ></span>
+          </p>
+        </div>
+        <div>
+          <p>
+            Current UTC Time:
+            <span data-testid="currentUTCTime" class="utc-time bold"></span>
+          </p>
+        </div>
+        <div class="track">
+          <p>
+            Track: <span data-testid="myTrack" class="bold">Frontend</span>
+          </p>
+        </div>
+        <div class="github ">
+          <a
+            href="https://github.com/sweetARTdev/HNG-Stage-one-task.git"
+            target="_blank"
+            data-testid="githubURL"
+            class="sourcecode"
+            >Github Url</a
+          >
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
